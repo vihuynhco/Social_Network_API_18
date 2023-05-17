@@ -1,6 +1,4 @@
-const { Types } = require('mongoose');
 const { Thought, User } = require('../models');
-const { db } = require('../models/Thought');
 
 // /api/thought
 

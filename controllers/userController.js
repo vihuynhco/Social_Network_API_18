@@ -96,7 +96,6 @@ const userController = {
     }
   },
   
-
   // DELETE to remove a friend from a user's friend list
   async removeFriend(req, res) {
     try {

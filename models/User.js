@@ -1,5 +1,4 @@
 const{ Schema, model } = require('mongoose');
-const myObjectId = Schema.Types.ObjectId;
 
 //DOES IT MATTER WHICH ORDER THESE ARE IN? model first or Schema first?
 
