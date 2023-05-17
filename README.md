@@ -24,15 +24,15 @@
 In Insomnia (or equivilant tool)  you can set up and run the following API routes, be sure the name of the routes in Insomnia are consistent with your route names. Note that this repo is build with only a thought model and user model and the friend schema and reaction schemas are subdocuments in thier respective models.
 
 - GET /api/user: To get all users
-- GET /api/user/:id: To get a single user by ID
+- GET /api/user/:id : To get a single user by ID
 - POST /api/user: To create a new user
-- PUT /api/user/:id: To update a user by ID
-- DELETE /api/user/:id: To delete a user by ID
+- PUT /api/user/:id : To update a user by ID
+- DELETE /api/user/:id : To delete a user by ID
 - GET /api/thought: To get all thoughts
-- GET /api/thought/:id: To get a single thought by ID
+- GET /api/thought/:id : To get a single thought by ID
 - POST /api/thought: To create a new thought
-- PUT /api/thought/:id: To update a thought by ID
-- DELETE /api/thought/:id: To delete a thought by ID
+- PUT /api/thought/:id : To update a thought by ID
+- DELETE /api/thought/:id : To delete a thought by ID
 - POST /api/thought/:thoughtId/reactions: To add a reaction to a thought
 - DELETE /api/thought/:thoughtId/reactions/:reactionId: To remove a reaction from a thought
 - POST /api/user/:userId/friends: To add a friend to a user's friend list
